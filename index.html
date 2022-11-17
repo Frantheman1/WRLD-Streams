@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
     <title>WRLD Streams</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="pics/logo2.png">
@@ -11,19 +13,34 @@
      crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="header">
-        <h2 class="logo"><img src="pics/WRLDStreams logo.png" style="width:250px"></h2>
-  
-        <ul class="nav">
-          <li><a href="bracket/index.html" style="color:#56042C">Bracket</a></li>
-          <li><a href="players/index.html" style="color: #56042C">Players</a></li>
-          <li><a href="standings/index.html" style="color:#56042C">Standings</a></li>
-          <li><a href="livescore/index.html" style="color:#FEC310 border=solid white">Live Score</a></li>
-        </ul>
-    </div>
+    <header class="hero">
+        <div class="hero-wrap">
+         <p class="intro" id="intro">Qatar</p>
+         <h1 id="headline">World Cup</h1>
+         <p class="year"><i class="fa fa-star"></i> 2022 <i class="fa fa-star"></i></p>
+         <p>Bracket</p>
+       </div>
+       <section class="share">
+        <div class="share-wrap">
+          <a class="share-icon" href="http://wrldstreams.com/bracket/index.html">
+            <img alt="Bracket" src="players/bracket.png" width="50" height="50">
+          </a>
+          <a class="share-icon" href="http://wrldstreams.com/standings/index.html">
+            <img alt="Standings" src="https://cdn-icons-png.flaticon.com/512/787/787235.png" width="50" height="50">
+          </a>
+          <a class="share-icon" href="http://wrldstreams.com/players/index.html">
+            <img alt="Players" src="https://cdn-icons-png.flaticon.com/512/26/26792.png" width="50" height="50">
+          </a>
+          <a class="share-icon" href="http://wrldstreams.com/livescore/index.html">
+            <img alt="Live Score" src="pics/livescore1.png" width="70" height="50">
+          </a>
+        </div>
+    </section>
+      </header>
+      <div class="calendar"></div>
+
     <br>
     <div class="mid">
-        <div class="calendar"></div>
         <div class="matches">
             <div class="dato">Sunday Nov 20</div>
             <div class="kamp">
