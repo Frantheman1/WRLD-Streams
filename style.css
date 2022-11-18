@@ -54,16 +54,16 @@ body {background: no-repeat #FEC310;background-size: cover;min-height: 100%;marg
 
 .calendar {
     max-width: 400px; /*change as per your design need */
-    min-width: 320px;
+    min-width: 120px;
     background: var(--calendar-bg-color);
     color: var(--calendar-font-color);
-    float:left;
     margin: 20px;
     box-sizing: border-box;
     overflow: hidden;
     font-weight: normal;
     border-radius: var(--calendar-border-radius);
     position: sticky;
+    height: 400px;
     top:0;
 }
 
