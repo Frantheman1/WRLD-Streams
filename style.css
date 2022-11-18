@@ -63,7 +63,6 @@ body {background: no-repeat #FEC310;background-size: cover;min-height: 100%;marg
     font-weight: normal;
     border-radius: var(--calendar-border-radius);
     position: sticky;
-    height: 400px;
     top:0;
 }
 
