@@ -21,7 +21,7 @@ body {background: no-repeat #FEC310;background-size: cover;min-height: 100%;marg
 .current li.team {background-color: #fff;opacity: 1;}
 .vote-options {display: block;height: 52px;}
 .share .container {margin: 0 auto; text-align: center;}
-.share-icon {font-size: 35px; color: #fff;padding: 25px;text-decoration: none;}
+.share-icon {font-size: 35px; color: #fff;padding: 25px;}
 .share-wrap {max-width: 1100px; text-align: center; margin: 30px auto;}
 
 .share-icon {color: #56042C; opacity: 0.35; }
