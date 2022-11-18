@@ -64,6 +64,7 @@ body {background: no-repeat #FEC310;background-size: cover;min-height: 100%;marg
     border-radius: var(--calendar-border-radius);
     position: sticky;
     top:0;
+    height:400px;
 }
 
 .calendar-inner {
