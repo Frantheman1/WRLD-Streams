@@ -54,7 +54,7 @@ body {background: no-repeat #FEC310;background-size: cover;min-height: 100%;marg
 
 .calendar {
     max-width: 400px; /*change as per your design need */
-    min-width: 120px;
+    min-width: 320px;
     background: var(--calendar-bg-color);
     color: var(--calendar-font-color);
     margin: 20px;
